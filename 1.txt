@@ -1,0 +1,41 @@
+#1)Создать переменную типа стринг
+let_string = "Это стринг"
+#2)Создать переменную типа Integer
+let_integer = 2022
+#3)Создать переменную типа Float
+let_float = 2022.2022
+#4)Создать переменную типа Bytes
+let_bytes = bytes(702)
+#5)Создать переменную типа List
+let_list = ["apple", "banana", "cherry"]
+#6)Создать переменную типа Tuply
+let_tuple = ("apple", "banana", "cherry")
+#7)Создать переменную типа Set
+let_set = set({5, 05.12, 'maria'})
+#8)Создать переменную типа Frozen set
+let_frozen_set = frozenset({5, 05.12, 'maria'})
+# 9)Создать переменную типа Dict
+let_dict = {'key1': 33,
+            'key2': 23,
+            'name': "maria",
+            'age': 33}
+#10)Вывести в консоль все выше перечисленные переменные с добавлением типа данных
+print(type(let_string), let_string)
+print(type(let_integer), let_integer)
+print(type(let_float), let_float)
+print(type(let_bytes), let_bytes)
+print(type(let_list), let_list)
+print(type(let_tuple), let_tuple)
+print(type(let_set), let_set)
+print(type(let_frozen_set), let_frozen_set)
+print(type(let_dict), let_dict)
+#11)Создать 2 переменные String, создать переменную в которой сканкатенируете эти переменные. Вывести в консоль.
+name = 'maria'
+name_2 = 'adrey'
+all_name = name + name_2
+print(all_name)
+#12)Вывести в одну строку переменные типа String и Integer используя “,” (Запятую)
+age = 33
+print(name, age)
+#12) Вывести в одну строку переменные типа String и Integer используя “,” (Запятую)
+print(name + str(age))
